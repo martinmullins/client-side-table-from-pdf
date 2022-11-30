@@ -1,0 +1,54 @@
+<div class="pdf-toolbar pdf-toolbar-bottom">
+  <div class="pdf-toolbar-start">
+    <div class="field has-addons toolbar-grp">
+      <p class="control">
+        <button class="button is-small page-up-button" title="Previous Page" id="previous" tabindex="13" data-l10n-id="previous">
+          <span class="icon">
+            <i class="fas fa-chevron-up"></i>
+          </span>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button is-small page-down-button" title="Next Page" id="next" tabindex="14" data-l10n-id="next">
+          <span class="icon">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </button>
+      </p>
+    </div>
+    <div class="page-numbers toolbar-grp">
+      <input type="number" id="pageNumber" class="toolbarField pageNumber" title="Page" value="1" size="4" min="1"
+        tabindex="15" data-l10n-id="page">
+      <span id="numPages" class="toolbarLabel num-pages-label"></span>
+    </div>
+    <div class="field has-addons toolbar-grp">
+      <p class="control">
+        <button id="zoomFit" class="button is-small zoom-fit-button" title="Zoom to fit">
+          <span class="icon"></span>
+        </button>
+      </p>
+      <p class="control">
+        <button id="zoomOut" class="button is-small zoom-out-button" title="Zoom Out" tabindex="21" data-l10n-id="zoom_out">
+          <span class="icon">
+            <i class="fas fa-search-minus"></i>
+          </span>
+        </button>
+      </p>
+      <p class="control">
+        <button id="zoomIn" class="button is-small zoom-in-button" title="Zoom In" tabindex="22" data-l10n-id="zoom_in">
+          <span class="icon">
+            <i class="fas fa-search-plus"></i>
+          </span>
+        </button>
+      </p>
+      <p class="control">
+        <button id="pageRotateCw" class="button is-small page-rot-button" title="Rotate Clockwise" tabindex="23"
+          data-l10n-id="page_rotate_cw">
+          <span class="icon">
+            <i class="fas fa-undo fa-flip-horizontal"></i>
+          </span>
+        </button>
+      </p>
+    </div>
+  </div>
+</div>

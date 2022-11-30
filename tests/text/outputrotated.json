@@ -1,0 +1,307 @@
+[
+    {
+        "str": "NNMB                                                                                                   72             Rural-Third Repeat Survey 2011-12 ",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 5.783641338348389,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 650.6375732421875,
+                "getY": 573.8458862304688,
+                "getXDirAdj": 650.6375732421875,
+                "getYDirAdj": 573.8458862304688,
+                "getWidth": 6.6741943359375,
+                "getHeight": 5.783641338348389,
+                "getWidthDirAdj": 6.6741943359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 2.7817516326904297
+            }
+        ]
+    },
+    {
+        "str": "Table 1 : STATE WISE COVERAGE PARTICULARS BY PERIOD OF SURVEY (Contd...)",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 224.51605224609375,
+                "getY": 67.010986328125,
+                "getXDirAdj": 224.51605224609375,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            },
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 277.0663757324219,
+                "getY": 67.010986328125,
+                "getXDirAdj": 277.0663757324219,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            },
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 360.7972717285156,
+                "getY": 67.010986328125,
+                "getXDirAdj": 360.7972717285156,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            },
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 432.2759704589844,
+                "getY": 67.010986328125,
+                "getXDirAdj": 432.2759704589844,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            },
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 461.0038146972656,
+                "getY": 67.010986328125,
+                "getXDirAdj": 461.0038146972656,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            },
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 524.5635986328125,
+                "getY": 67.010986328125,
+                "getXDirAdj": 524.5635986328125,
+                "getYDirAdj": 67.010986328125,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "State",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 94.6052017211914,
+                "getY": 116.96090698242188,
+                "getXDirAdj": 94.6052017211914,
+                "getYDirAdj": 116.96090698242188,
+                "getWidth": 7.335929870605469,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.335929870605469,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "IYCF Practices  ",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 431.40704345703125,
+                "getY": 102.330810546875,
+                "getXDirAdj": 431.40704345703125,
+                "getYDirAdj": 102.330810546875,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Blood Pressure  ",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 548.518310546875,
+                "getY": 93.54351806640625,
+                "getXDirAdj": 548.518310546875,
+                "getYDirAdj": 93.54351806640625,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Fasting  Blood Sugar ",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "S",
+                "getRotation": 90,
+                "getX": 697.4918212890625,
+                "getY": 93.54351806640625,
+                "getXDirAdj": 697.4918212890625,
+                "getYDirAdj": 93.54351806640625,
+                "getWidth": 7.3359375,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.3359375,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Andhra Pradesh",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.357075214385986,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 102.36540222167969,
+                "getY": 221.66900634765625,
+                "getXDirAdj": 102.36540222167969,
+                "getYDirAdj": 221.66900634765625,
+                "getWidth": 7.335929870605469,
+                "getHeight": 6.357075214385986,
+                "getWidthDirAdj": 7.335929870605469,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Madhya Pradesh",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.357075214385986,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 106.02787017822266,
+                "getY": 285.1090087890625,
+                "getXDirAdj": 106.02787017822266,
+                "getYDirAdj": 285.1090087890625,
+                "getWidth": 7.335929870605469,
+                "getHeight": 6.357075214385986,
+                "getWidthDirAdj": 7.335929870605469,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Uttar Pradesh",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.357075214385986,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 90.7400894165039,
+                "getY": 348.5480041503906,
+                "getXDirAdj": 90.7400894165039,
+                "getYDirAdj": 348.5480041503906,
+                "getWidth": 7.335929870605469,
+                "getHeight": 6.357075214385986,
+                "getWidthDirAdj": 7.335929870605469,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    },
+    {
+        "str": "Pooled",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 6.544048309326172,
+                "getUnicode": "P",
+                "getRotation": 90,
+                "getX": 63.8489990234375,
+                "getY": 369.6940002441406,
+                "getXDirAdj": 63.8489990234375,
+                "getYDirAdj": 369.6940002441406,
+                "getWidth": 7.335929870605469,
+                "getHeight": 6.544048309326172,
+                "getWidthDirAdj": 7.335929870605469,
+                "getFontSize": 1.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 90.0,
+                "getWidthOfSpace": 3.0575554370880127
+            }
+        ]
+    }
+]

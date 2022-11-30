@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="google" content="notranslate">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <base href="<%= htmlWebpackPlugin.options.baseUrl %>/" >
+  <title>PDF Table Util</title>
+  <!-- This snippet is used in production (included from viewer.html) -->
+  <link rel="resource" type="application/l10n" href="web/locale/locale.properties">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <!-- meta ref -->
+  <meta name="robots" content="noindex">
+
+  <script src="pace.min.js"></script>
+  <link href="pace.css" rel="stylesheet" />
+</head>
+<body style="margin: 0; padding: 0;">
+<canvas width="100" height="100" style="position: absolute; top: 300px; left: 0; z-index: 99; display: none;" id="debug-canvas"></canvas>
+<div class="root-container">
+
+  <div class="page-content show-pdf">
+    <div class="pdf-content">
+      <%= require('./uih/pdfview/topbar.html') %>
+      <!-- VIEWER -->
+      <%= require('./viewer.html') %>
+      <!-- VIEWER -->
+      <%= require('./uih/pdfview/selecttablehelper.html') %>
+      <%= require('./uih/pdfview/botbar.html') %>
+      <%= require('./uih/pdfview/modal.html') %>
+    </div>
+  </div>
+</div>
+<script src="build/pdf.js"></script>
+<script src="web/viewer.js"></script>
+</body>
+</html>

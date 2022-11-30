@@ -1,0 +1,28 @@
+[
+  {
+    "name": "test2",
+    "file": "test2.pdf",
+    "page": 1,
+    "area": "%9,8,17,42",
+    "stream": "test2.stream.csv",
+    "lattice": "test2.lattice.csv"
+  },
+  {
+    "name": "compressed.tracemonkey",
+    "file": "compressed.tracemonkey-pldi-09.pdf",
+    "page": 12,
+    "area": "%8,9,45,94",
+    "stream": "compressed.tracemonkey.stream.csv",
+    "lattice": "compressed.tracemonkey.lattice.csv"
+  },
+  {
+    "name": "agstat",
+    "file": "agstat.pdf",
+    "page": 1,
+    "area": "%14,7,90,94",
+    "stream": "agstat.stream.csv",
+    "stream_ignore": true,
+    "lattice": "agstat.lattice.csv",
+    "lattice_ignore": true
+  }
+]

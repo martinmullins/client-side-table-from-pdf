@@ -1,0 +1,442 @@
+@charset "utf-8";
+@import "~bulma/bulma";
+@import "~bulma-steps/src/sass";
+@import "~@creativebulma/bulma-divider";
+@import "~bulma-switch/src/sass";
+
+// bulma, sets this to show
+html {
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.root-container {
+  height: 100%;
+}
+
+.root-container div.page-content.page-content.page-content.page-content.page-content {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-end {
+  margin-left: 10px;
+}
+
+.extraction-method-toolbar.extraction-method-toolbar.extraction-method-toolbar.extraction-method-toolbar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+  p {
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .control {
+    margin-left: 5px;
+  }
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; doesn't work for mobile */
+  max-height: 100vh;
+}
+
+// fixes for sheet
+.page-content ul.x-spreadsheet-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  user-select: none;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-end {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  .navbar-item {
+    margin-left: 10px;
+  }
+}
+
+.pdf-content {
+  display: none;
+  flex-direction: column;
+}
+
+.grid-content {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+.grid-content-grid {
+  flex-grow: 1;
+}
+
+.show-pdf {
+  .pdf-content {
+    display: flex;
+  }
+}
+
+.show-grid {
+  .grid-content {
+    display: flex;
+  }
+}
+
+.column-view {
+  .gutter {
+    cursor: col-resize;
+    background-color: #efefef;
+  }
+
+  .nav-tabs-container {
+    display: none;
+  }
+  
+  //.pdf-content, .grid-content {
+  //  display: block;
+  //}
+  .page-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .grid-content {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .pdf-content {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.pdf-viewer-content {
+  flex-grow: 1;
+}
+
+.pdf-toolbar {
+  padding-left: 5px;
+  background-color: rgb(245, 246, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-modal:hover {
+  cursor: pointer;
+}
+
+.modal-card {
+  width: max-content;
+  min-width: 360px;
+}
+
+@media only screen and (max-width: 300px) {
+  .modal-card {
+    width: max-content;
+    min-width: 280px;
+  }
+}
+
+.extract-option-text.extract-option-text.extract-option-text {
+  padding-top: 7px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  p {
+    font-size: 16px;
+  }
+}
+
+.extract-option-switch.extract-option-switch.extract-option-switch {
+  margin-bottom: 0;
+  label {
+    padding-left: 3.2rem;
+  }
+}
+
+.page-content .notification {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  bottom: 53px;
+}
+
+@media only screen and (max-width: 950px) {
+  .page-content .notification {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.select-table-status {
+  position: absolute;
+  background-color: rgb(245, 246, 247);
+  border-radius: 4px;
+  bottom: 53px;
+  padding: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .select-table-steps {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .message-text {
+      margin-bottom: 0.4rem;
+      margin-top: 0.3rem;
+      padding-right: 24px;
+    }
+
+    .steps {
+      width: 100%;
+    }
+
+    #close-status {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.pdf-toolbar-start {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pdf-toolbar-end {
+  align-items: flex-start;
+}
+
+// pdfjsView overrides
+#viewerContainer {
+  top: 0;
+  width: 100vw;
+}
+
+.pace-running:not(.pace-all-done) > *:not(.pace) {
+  opacity:0;
+}
+
+.pace-all-done {
+  div.pace {
+    display: none;
+  } 
+}
+
+.toolbar-grp.toolbar-grp.toolbar-grp {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  display: flex;
+  white-space: nowrap;
+  .control, p:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-numbers {
+  align-items: baseline;
+
+  .toolbarField, .toolbarLabel {
+    color: #222;
+  }
+}
+
+.pdf-toolbar-bottom {
+  padding-left: 0;
+  justify-content: center;
+
+  .pdf-toolbar-start {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.num-pages-label {
+  padding: 3px 0px 3px 2px;
+  margin: 4px 0px 2px 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .tabbed-view {
+    .switch-view-button {
+      display: none;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .nav-tabs-container {
+    .tabs li {
+      width: 50%;
+    }
+    //.switch-name {
+    //  display: none;
+    //}
+    //span.icon.icon {
+    //  margin-right: 0;
+    //}
+  }
+
+  /*p.control {
+    /*span:not(:first-child) {
+      /*display: none;
+    }
+    span.icon.icon.icon.icon {
+      margin-left: calc(-0.5em - 1px);
+      margin-right: calc(-0.5em - 1px);
+    }
+    
+  }*/
+}
+.doorHanger.doorHanger.doorHanger {
+  &::after {
+    border-bottom-color: #f5f6f7;
+  }
+}
+
+.findbar.findbar.findbar{
+  background-color: #f5f6f7;
+  background-image: unset !important;
+  color: #222;
+}
+
+#findbar#findbar {
+  width: min-content;
+  max-width: 400px;
+  min-width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  top: 4px;
+  left: 40px;
+  padding: 6px;
+}
+
+#findbarInputContainer#findbarInputContainer#findbarInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.splitToolbarButton.splitToolbarButton.splitToolbarButton.splitToolbarButton {
+  margin: 0;
+  padding: 0;
+  .toolbar-grp.toolbar-grp.toolbar-grp {
+    margin: 0;
+  }
+}
+
+button.toggled.toggled, button:focus.toggled.toggled, button.is-focused.toggled.toggled {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #a1a1a1;
+     -moz-box-shadow: inset 0px 0px 5px #a1a1a1;
+          box-shadow: inset 0px 0px 5px #a1a1a1;
+   outline: none;
+   border-color: #aaa;
+}
+
+/* SPINNER */
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #333;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}

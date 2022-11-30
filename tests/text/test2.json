@@ -1,0 +1,91 @@
+[
+    {
+        "str": "Sheet1",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 5.580000400543213,
+                "getUnicode": "S",
+                "isVertical": 0,
+                "getX": 290.20001220703125,
+                "getY": 67.29998779296875,
+                "getXDirAdj": 290.20001220703125,
+                "getYDirAdj": 67.29998779296875,
+                "getWidth": 6.660003662109375,
+                "getHeight": 5.580000400543213,
+                "getWidthDirAdj": 6.660003662109375,
+                "getFontSize": 10.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 0.0,
+                "getWidthOfSpace": 2.7699999809265137
+            }
+        ]
+    },
+    {
+        "str": "Page 1",
+        "glyphs": [
+            {
+                "isPrintable": true,
+                "getHeightDir": 5.580000400543213,
+                "getUnicode": "P",
+                "isVertical": 0,
+                "getX": 290.20001220703125,
+                "getY": 731.7000122070312,
+                "getXDirAdj": 290.20001220703125,
+                "getYDirAdj": 731.7000122070312,
+                "getWidth": 6.660003662109375,
+                "getHeight": 5.580000400543213,
+                "getWidthDirAdj": 6.660003662109375,
+                "getFontSize": 10.0,
+                "getFontSizeInPt": 10.0,
+                "getDir": 0.0,
+                "getWidthOfSpace": 2.7699999809265137
+            }
+        ]
+    },
+    {
+        "str": "A",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "B",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "C",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "1",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "2",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "3",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "1",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "22",
+        "glyphs": [
+        ]
+    },
+    {
+        "str": "333",
+        "glyphs": [
+        ]
+    }
+]

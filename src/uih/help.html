@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDF Table Util Help</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+<link rel="manifest" href="ico/site.webmanifest">
+
+<style>
+body {
+  margin: 0 auto;
+  max-width: 40rem;
+  color: #555;
+  background: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  color: #2ECC40;
+}
+h1, h2, strong {
+  color: #111;
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h2,
+strong,
+em {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
+img {
+  max-width: 100%;
+}
+
+</style>
+
+</head>
+<body>
+    <header id="header">
+        <h1>Help & Quick Start</h1>
+        <p>Help documentation for the PDF Table Util tool.</p>
+    </header>
+    <main>
+        <section id="open">
+            <h2>Open a PDF Document</h2>
+            <p>First and formost open a PDF via the <em>Open</em> button on the menu bar. See the picture below:</p>
+            <img src="images/help-open.png" alt="The open button is the first button on the top left toolbar" />
+        </section>
+        <section id="select">
+            <h2>Selecting a table</h2>
+            <p>Press the <em>Select</em> button on the toolbar to enter <em>select table mode.</em></p>
+            <img src="images/help-select.png" alt="The select button is the second button on the top left toolbar" />
+            <p>The cursor on the PDF document will switch to be a crosshair.
+               Press and hold the mouse just outside the top right of the desired table in the PDF document.
+               Drag a box covering the table.
+               Release the mouse.
+               It should look as follows:
+            </p>
+            <img src="images/help-select-box.png" alt="A box should be drawn on the PDF document covering the table." />
+        </section>
+        <section id="extract">
+            <h2>Running the extraction</h2>
+            <p>Once the appropriate extraction method is chosen (described in the next section), click the <em>Extract</em> button.</p>
+            <img src="images/help-extract.png" alt="The extract button is on the top left toolbar." />
+            <p>The extraction process will run and if successful the extracted table data will be presented.</p>
+        </section>
+        <section id="modes">
+            <h2>Table extraction method</h2>
+            <p>Use the <em>Method Dropdown</em> on the top left toolbar to change the extraction method.</p>
+            <img src="images/help-modes.png" alt="The extract method dropdown is visible on the top left toolbar." />
+            <p>There are four extraction methods:</p>
+            <dl>  
+                <dt><b>Text + Lines</b></dt>  
+                <dd>Use if the table has selectable PDF text and grid lines indicating each individual cell.</dd>  
+                <dt><b>Text + Space</b></dt>  
+                <dd>Use if the table has selectable PDF text and empty space separating columns and/or rows.</dd>  
+                <dt><b>Image + Lines</b></dt>  
+                <dd>Use if the table is a scan/image and has grid lines indicating each individual cell.</dd>  
+                <dt><b>Image + Space</b></dt>  
+                <dd>Use if the table is a scan/image and has empty space separating columns and/or rows.</dd>   
+            </dl>
+            <p>Additionaly, if one of the image extraction modes are chosen, a language dropdown will appear on the toolbar. Ensure this is set to the language of the PDF table data.</p>
+            <img src="images/help-lang.png" alt="The language dropdown will appear dependent on the extraction mode. It is visible on the top left toolbar." />
+        </section>
+        <section id="extract">
+            <h2>Feedback</h2>
+            <p>Please <a href="mailto:pdftableutil@gmail.com">email</a> any feedback.
+        </section>
+    </main> 
+</body>
+</html>
