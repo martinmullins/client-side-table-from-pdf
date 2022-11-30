@@ -1,5 +1,4 @@
 dist
-tests/tables/
 .cache/
 coverage/
 dist/*
