@@ -8,7 +8,6 @@ import { runPDFGraphicsStreamEngine } from '../src/pdfbox_emu/PDFGraphicsStreamE
 import * as classes from '../src/generated/classes';
 import testsList from './tests.json'
 
-//import '../../teafe/target/teafe-1.0-SNAPSHOT/teavm/runtime';
 global.PDDocument = PDDocument;
 global.runPDFTextStripper = runPDFTextStripper;
 global.runPDFGraphicsStreamEngine = runPDFGraphicsStreamEngine;
