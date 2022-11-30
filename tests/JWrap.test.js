@@ -1,5 +1,5 @@
 const path = require('path');
-const pdfjsLib = require('../../pdf.js/build/generic-es5/build/pdf');
+const pdfjsLib = require('../pdf.js/build/generic-es5/build/pdf');
 global.pdfjsLib = pdfjsLib;
 const fs = require('fs');
 import { PDDocument } from '../src/pdfbox_emu/PDDocument';
